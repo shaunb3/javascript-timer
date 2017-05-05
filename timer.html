@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Javascript calculator</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script> -->
+</head>
+<body>
+
+    <div id="timerDisplay">
+    <h1> Timer</h1>
+
+    <p>min: 2 sec: 13</p>
+
+    </div> 
+
+
+
+    <!-- <input type="text" id="minutesInput" value="25"> -->
+<div id="buttons">
+    <br>
+    <input type="button" id="start" value="start" onclick="start()"> 
+    <input type="button" id="increaseTimer" value="+" onclick="increaseSession()"> 
+    <input type="button" id="start" value="-" onclick="decreaseSession()"> 
+    <!-- <input type="button" id="start" value="Pause" onclick="pauseTimer()">  -->
+    <input type="button" id="start" value="Stop" onclick="stopTimer()">
+
+</div>
+    
+    <br>
+    <div id="breakDisplay">
+
+    <h1>Break</h1>
+
+    <p>min: 2 sec: 13</p>
+
+    </div>
+
+    <input type="button" id="increaseTimer" value="+" onclick="increaseBreak()"> 
+    <input type="button" id="start" value="-" onclick="decreaseBreak()"> 
+
+
+    <script type="text/javascript" src="timerJS.js"></script>
+</body>
+</html>
